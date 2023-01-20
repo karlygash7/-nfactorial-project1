@@ -9,7 +9,7 @@ body {
 h1 {
     font-size: 100px;
     font-weight: 100%;
-    
+
 }
 
 .section-welcome {
@@ -17,8 +17,9 @@ h1 {
 }
 
 .nav {
+    margin: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: center;
     align-items: center;
     padding: 12px 80px;
     gap: 748px;
@@ -32,9 +33,9 @@ h1 {
 
 .nav-logo {
     display: flex;
-  width: 40%;
-  align-items: center;
-  padding: 0;
+    width: 40%;
+    align-items: center;
+    padding: 0;
 }
 
 
