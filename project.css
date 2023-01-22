@@ -3,6 +3,7 @@
 body {
     margin: 0;
     font-family: 'Kanit', sans-serif;
+    background: #F1F1F1;
 }
 
 button {
@@ -96,7 +97,6 @@ li {
     display: flex;
     width: 80%;
     flex-direction: column;
-
 }
 
 .info {
@@ -257,6 +257,7 @@ footer {
     margin: 0;
     font-family: 'Inter', sans-serif;
     font-size: 14px;
+    background: #F1F1F1;
 }
 
 .footer-section {
@@ -292,8 +293,294 @@ footer {
     color: #081E34;
 }
 
-.footer-made{
+.footer-made {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+}
+
+@media only screen and (max-width : 600px) {
+
+    .section-welcome {
+        width: 100%;
+        background: #F1F1F1;
+    }
+
+    .nav {
+        width: 85%;
+    }
+
+    .nav-logo {
+        gap: 10px;
+    }
+
+    .logo-text {
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .nav-buttons {
+        display: flex;
+        justify-content: end;
+    }
+
+    .object {
+        display: none;
+    }
+
+    .get-started {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        width: 120px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .content-image {
+        flex: none;
+        order: 0;
+    }
+
+    .content-image img {
+        width: 352px;
+        height: 240px;
+    }
+
+    .content-texts {
+        flex: none;
+        order: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title {
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 46px;
+        text-align: center;
+    }
+
+    .description {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .context-button {
+        width: 180px;
+        height: 70px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        margin-top: 30px;
+    }
+
+    .info-block {
+        width: 85%;
+        padding-top: 0px;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .lorem {
+        margin-top: 60px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .title2 {
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 42px;
+    }
+
+    .frame-block {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        grid-gap: 20px;
+    }
+
+    .cv-submission {
+        height: 439px;
+    }
+
+    .cv {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 30px;
+        padding-top: 35px;
+    }
+
+    .title3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .cv-about {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        text-align: center;
+        width: auto;
+    }
+
+    .findjob-button {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 15px;
+        gap: 15px;
+    }
+
+    .search {
+        width: 350px;
+        box-sizing: border-box;
+    }
+
+    .placeholder {
+        border-radius: none;
+    }
+
+    .find-job {
+        width: 126px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .section-upload-cv {
+        height: 700px;
+    }
+
+    .cv-block {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .upload-image {
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .upload-image img {
+        width: 352px;
+        height: 240px;
+    }
+
+    .upload-cv {
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .upload-title {
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+    }
+
+    .upload-description {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .upload-button {
+        margin-top: 30px;
+        width: 120px;
+    }
+
+    .footer-section {
+        height: 750px;
+        background: #FFFFFF;
+        border-radius: 32px 32px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-frame {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    .footer-menu li {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .footer-credits-button {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        padding-left: 35px;
+        padding-right: 30px;
+    }
+
+    .footer-made {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        padding-left: 35px;
+        padding-right: 30px;
+    }
 }
